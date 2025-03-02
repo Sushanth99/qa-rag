@@ -1,0 +1,18 @@
+[project]
+name = "project3"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "datasets>=3.2.0",
+    "einops>=0.8.1",
+    "ipykernel>=6.29.5",
+    "llama-index>=0.12.16",
+    "llama-index-embeddings-huggingface>=0.5.1",
+    "llama-index-llms-ollama>=0.5.2",
+    "llama-index-vector-stores-qdrant>=0.4.3",
+    "qdrant-client>=1.13.2",
+    "torch>=2.6.0",
+    "transformers>=4.48.3",
+]
